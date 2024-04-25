@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/regnew"
+    tools:context=".view">
+
+    <EditText
+        android:id="@+id/search_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Search"
+        android:drawableLeft="@drawable/search_icon"
+        android:textColor="@color/black"
+        android:imeOptions="actionSearch"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="50sp"
+        android:backgroundTint="#E3769B"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Add post" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pet"
+        android:layout_width="match_parent"
+        android:layout_height="653dp"
+        android:layout_below="@id/btn_add"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcg"
+    tools:context=".view">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bookcare"
+        android:layout_width="match_parent"
+        android:layout_height="653dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_booking"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Book caregiver"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="#D1668B"
+
+        />
+
+</RelativeLayout>

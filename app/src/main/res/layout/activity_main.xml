@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainn"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textSize="40dp"
+        android:layout_marginBottom="150dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/user_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="E mail"
+        />
+
+    <Button
+        android:id="@+id/btn_shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="#AC8380"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="Sell/Buy/care Pets" />
+
+
+    <Button
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="0sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="#AC8380"
+        android:text="Category"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/caregivers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="0sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="#AC8380"
+        android:text="View Available Caregivers"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="0sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="#AC8380"
+        android:text="Feedback"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <Button
+        android:text="@string/logout"
+        android:id="@+id/logout"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</LinearLayout>
